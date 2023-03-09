@@ -2,6 +2,7 @@ import 'package:badges/badges.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nike_shoe_app_ui/widgets/all_items_widget.dart';
+import 'package:nike_shoe_app_ui/widgets/home_bottom_nav_bar.dart';
 import 'package:nike_shoe_app_ui/widgets/row_items_widget.dart';
 
 class HomePage extends StatelessWidget {
@@ -119,6 +120,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: HomeBottomNavBar(),
     );
   }
 }

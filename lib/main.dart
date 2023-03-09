@@ -16,12 +16,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xFFCEDDEE),
-
       ),
       routes: {
-        "/" : (context) => LoginPage(),
-        "homePage" : (context) => HomePage(),
-        "itemPage" : (context) => ItemPage(),
+        "/": (context) => HomePage(),
+        "homePage": (context) => HomePage(),
+        "itemPage": (context) => ItemPage(),
       },
     );
   }
